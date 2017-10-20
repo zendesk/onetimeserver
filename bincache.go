@@ -9,7 +9,7 @@ import (
 	"runtime"
 )
 
-const baseURL = "https://raw.githubusercontent.com/osheroff/onetimeserver-binaries/master"
+const baseURL = "https://raw.githubusercontent.com/zendesk/onetimeserver-binaries/master"
 
 func getBinaryCachePath(pkg string, subpath string, program string, version string) string {
 	dir := fmt.Sprintf("%s/.onetimeserver/bin/%s/%s%s", os.Getenv("HOME"), pkg, version, subpath)

@@ -9,7 +9,7 @@ throwing them away at the end.
 download the onetimeserver wrapper script:
 
 ```
-curl https://raw.githubusercontent.com/osheroff/onetimeserver/master/onetimeserver > onetimeserver
+curl https://raw.githubusercontent.com/zendesk/onetimeserver/master/onetimeserver > onetimeserver
 ```
 
 In your test suite, execute the script:

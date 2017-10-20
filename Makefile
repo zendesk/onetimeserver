@@ -4,7 +4,7 @@ wrapper: wrapper/wrapper.c wrapper/wrapper
 	gcc -Wall -g -o wrapper/wrapper wrapper/wrapper.c
 
 onetimeserver-go:
-	go install github.com/osheroff/onetimeserver/...
+	go install github.com/zendesk/onetimeserver/...
 
 DIR=${HOME}/.onetimeserver/$(shell uname -s)-$(shell uname -m)
 
