@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
-	"github.com/osheroff/onetimeserver"
+	"github.com/zendesk/onetimeserver"
 	"math/rand"
 	"os"
 	"time"
