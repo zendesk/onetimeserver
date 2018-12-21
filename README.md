@@ -35,4 +35,12 @@ pass in the test suite's master pid with "--parent-pid".
     server has come up properly, and then exits, outputting information about the server in JSON.
 3.  main utility, written in golang.  responsible for configuring and booting the server.
 
+## troubleshooting
+
+If you have trouble starting up the onetimeserver after an OS upgrade etc, and you notice the error:
+
+" $onetimeserver -m 5.6
+  >Child exited without printing info!"
+
+then try removing ~/.onetimeserver folder on your machine.
 
