@@ -40,7 +40,7 @@ pass in the test suite's master pid with "--parent-pid".
 If you have trouble starting up the onetimeserver after an OS upgrade etc, and you notice the error:
 
 ```
-$onetimeserver -m 5.6
+$ onetimeserver -m 5.6
 > Child exited without printing info!
 ```
 
